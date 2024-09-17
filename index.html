@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farfetch</title>
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+      .scrollbar-hidden::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+  </head>
+  <body class="box-border">
+    <!-- Promotional banner -->
+
+    <header
+      class="bg-gray-200 xs:text-left xs:px-4 sm:text-left sm:px-4 md:text-left md:px-4 lg:text-center xl:text-center 2xl:text-left py-1"
+    >
+      <p class="text-sm font-normal">Returns are free within 30 days</p>
+    </header>
+
+    <!-- Navbar -->
+
+    <!-- Select -> ctrl+d -> left/right arrow -->
+
+    <nav class="bg-white py-2 px-6 sticky top-0 border-b-[1px] z-[10000000]">
+      <!-- First child -->
+      <div class="flex justify-between items-center mb-4">
+        <!-- Wears section  -->
+        <div
+          class="w-fit 2xl:flex xl:flex lg:flex md:hidden sm:hidden xs:hidden items-center"
+        >
+          <div
+            class="hover:bg-gray-100 cursor-pointer py-2 px-3 hover:text-gray-600 hover:rounded-l-lg"
+          >
+            <h2 class="capitalize">womenswear</h2>
+          </div>
+          <div
+            class="hover:bg-gray-100 cursor-pointer py-2 px-3 hover:text-gray-600"
+          >
+            <h2 class="capitalize">menswear</h2>
+          </div>
+          <div
+            class="hover:bg-gray-100 cursor-pointer py-2 px-3 hover:text-gray-600 hover:rounded-r-lg"
+          >
+            <h2 class="capitalize">kidswear</h2>
+          </div>
+        </div>
+
+        <!-- sm -> display: block -->
+        <select
+          class="xs:block sm:block md:block lg:hidden xl:hidden 2xl:hidden capitalize font-bold xs:text-[0.75rem] sm:text-[0.8rem] md:text-sm text-md p-3 px-4 hover:bg-gray-100 hover:rounded-md cursor-pointer outline-none"
+        >
+          <option value="" disabled>Select</option>
+          <option value="menswear">menswear</option>
+          <option value="womenswear">womenswear</option>
+          <option value="kidswear">kidswear</option>
+        </select>
+        <!-- Brand name -->
+        <div>
+          <h1
+            class="uppercase font-bold sm:text-xl md:text-xl lg:text-3xl xl:text-3xl 2xl:text-3xl"
+          >
+            farfetch
+          </h1>
+        </div>
+        <div
+          class="xs:w-[30%] sm:w-[25%] md:w-[25%] lg:w-[20%] flex justify-end items-end gap-x-2"
+        >
+          <div
+            class="hover:bg-gray-100 rounded-md xs:w-[2rem] sm:w-[2rem] md:w-[2.1rem] lg:w-[2.8rem] cursor-pointer object-contain p-2"
+          >
+            <img src="./images/icons8-india-48.png" alt="india-logo" />
+          </div>
+          <div
+            class="hover:bg-gray-100 rounded-md xs:w-[2rem] sm:w-[2rem] md:w-[2.1rem] lg:w-[2.8rem] cursor-pointer object-contain p-2"
+          >
+            <img src="./images/icons8-account-60.png" alt="account-logo" />
+          </div>
+          <div
+            class="hover:bg-gray-100 rounded-md xs:w-[2rem] sm:w-[2rem] md:w-[2.1rem] lg:w-[2.8rem] cursor-pointer object-contain p-2"
+          >
+            <img src="./images/icons8-heart-50.png" alt="like-logo" />
+          </div>
+          <div
+            class="hover:bg-gray-100 rounded-md xs:w-[2rem] sm:w-[2rem] md:w-[2.1rem] lg:w-[2.8rem] cursor-pointer object-contain p-2"
+          >
+            <img src="./images/icons8-shopping-cart-48.png" alt="cart-logo" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Second child -->
+      <div class="flex justify-end">
+        <div class="relative xs:w-[35%] w-[25%]">
+          <input
+            class="w-full xs:rounded-md rounded-lg xs:text-[0.75rem] sm:text-sm md:text-sm lg:text-base border-[1.5px] xs:p-1 xs:pl-7 p-2 pl-20 md:pl-8 lg:pl-10"
+            type="text"
+            placeholder="Search"
+          />
+          <div
+            class="absolute xs:h-[12px] xs:w-[12px] sm:h-[15px] sm:w-[15px] w-[20px] h-[20px] xs:left-2 xs:top-[0.5rem] sm:left-3 md:left-3 md:top-[0.5rem] sm:top-[0.65rem] lg:left-4 lg:top-[0.6rem]"
+          >
+            <svg
+              class="w-full h-full"
+              fill="#000000"
+              version="1.1"
+              id="Capa_1"
+              viewBox="0 0 488.4 488.4"
+              xml:space="preserve"
+            >
+              <g>
+                <g>
+                  <path
+                    d="M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6
+        s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2
+        S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7
+        S381.9,104.65,381.9,203.25z"
+                  />
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+
+    <main class="relative w-[90%] m-auto top-8 mb-28">
+      <div
+        class="xs:text-left sm:text-left md:text-left lg:text-center xl:text-center 2xl:text-center xs:mb-5 sm:mb-5 md:mb-5 lg:mb-10"
+      >
+        <h3
+          class="xs:text-xl sm:text-xl md:text-2xl lg:text-3xl 2xl:text-3xl tracking-wide"
+        >
+          Choose a department
+        </h3>
+      </div>
+      <div
+        class="scrollbar-hidden w-full flex justify-between items-center xs:gap-x-4 sm:gap-x-4 md:gap-x-4 lg:gap-0 xl:gap-0 2xl:gap-0 xs:overflow-x-auto sm:overflow-x-auto md:overflow-x-auto lg:overflow-x-auto xl:overflow-x-auto 2xl:overflow-x-auto"
+      >
+        <div
+          class="w-[360px] h-[200px] flex-shrink-0 cursor-pointer bg-no-repeat bg-cover flex justify-center items-center bg-women"
+        >
+          <h4 class="text-white font-bold text-3xl tracking-wide uppercase">
+            womenswear
+          </h4>
+        </div>
+        <div
+          class="w-[360px] h-[200px] flex-shrink-0 cursor-pointer bg-no-repeat bg-cover flex justify-center items-center bg-men"
+        >
+          <h4 class="text-white font-bold text-3xl tracking-wide uppercase">
+            menswear
+          </h4>
+        </div>
+        <div
+          class="w-[360px] h-[200px] flex-shrink-0 cursor-pointer bg-no-repeat bg-cover flex justify-center items-center bg-kids"
+        >
+          <h4 class="text-white font-bold text-3xl tracking-wide uppercase">
+            kidswear
+          </h4>
+        </div>
+      </div>
+    </main>
+
+    <!-- Information section  -->
+
+    <section
+      class="relative top-12 mb-28 w-[90%] m-auto flex xs:flex-col xs:gap-y-4 sm:flex-col sm:gap-y-4 md:flex-col md:gap-y-4 lg:flex-row xl:flex-row 2xl:flex-row justify-between items-start"
+    >
+      <div
+        class="border-[1px] hover:bg-gray-100 cursor-pointer xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%] p-4 py-6"
+      >
+        <img
+          class="mb-4"
+          src="./images/icons8-hanger-24.png"
+          alt="how-to-shop-logo"
+        />
+        <h4 class="uppercase mb-2">how to shop</h4>
+        <p class="text-[0.9rem] tracking-wide font-medium">
+          Your guide to shopping and placing orders
+        </p>
+      </div>
+      <div
+        class="border-[1px] hover:bg-gray-100 cursor-pointer xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%] p-4 py-6"
+      >
+        <img
+          class="mb-4"
+          src="./images/icons8-question-mark-24.png"
+          alt="faq-logo"
+        />
+        <h4 class="uppercase mb-2">faqs</h4>
+        <p
+          class="text-[0.9rem] tracking-wide font-medium lg:line-clamp-1 md:line-clamp-1 xl:line-clamp-1 text-ellipsis"
+        >
+          Your questions answered
+        </p>
+      </div>
+      <div
+        class="border-[1px] hover:bg-gray-100 cursor-pointer xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[32%] xl:w-[32%] 2xl:w-[32%] p-4 py-6"
+      >
+        <img
+          class="mb-4"
+          src="./images/icons8-topic-24.png"
+          alt="need-help-logo"
+        />
+        <h4 class="uppercase mb-2">need help?</h4>
+        <p class="text-[0.9rem] tracking-wide font-medium">
+          Contact our global customer service team
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact us section  -->
+
+    <section
+      class="w-[90%] m-auto relative mb-12 pb-10 top-12 flex justify-between items-start"
+    >
+      <!-- First child -->
+
+      <div class="w-[45%]">
+        <h3 class="text-2xl font-bold uppercase mb-3">never miss a thing</h3>
+        <p class="text-md tracking-wide">
+          Signup for promotions, tailored new arrivals, stock updates and more -
+          straight to your inbox
+        </p>
+      </div>
+
+      <!-- Second child  -->
+
+      <div class="w-[50%]">
+        <p class="uppercase mb-3">get updates by</p>
+        <form class="flex flex-col gap-y-6 mb-3">
+          <span>
+            <span class="block">
+              <input class="mb-3 mr-1" type="checkbox" id="email" />
+              <label for="email">Email</label>
+            </span>
+            <input
+              class="border-[1px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[80%] xl:w-[80%] 2xl:w-[80%] p-2 pl-4 rounded-md"
+              type="email"
+              placeholder="Your email address"
+            />
+          </span>
+
+          <span>
+            <span class="block">
+              <input class="mb-3 mr-1" type="checkbox" id="phone" />
+              <label for="phone">SMS</label>
+            </span>
+            <input
+              class="border-[1px] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[80%] xl:w-[80%] 2xl:w-[80%] p-2 pl-4 rounded-md"
+              type="tel"
+              placeholder="Your phone number"
+            />
+          </span>
+
+          <input
+            class="border xs:w-fit xs:p-2 xs:px-6 sm:w-fit sm:p-2 sm:px-6 md:p-2 md:px-6 md:w-fit lg:w-fit xl:w-fit 2xl:w-fit lg:p-2 xl:p-2 2xl:p-2 bg-black text-white rounded-md xs:text-[0.65rem] sm:text-[0.65rem] md:text-[0.7rem] lg:text-[0.85rem] xl:text-[0.85rem] 2xl:text-[0.85rem] font-semibold cursor-pointer"
+            type="submit"
+            value="Sign Up"
+          />
+        </form>
+        <p class="text-[0.8rem] tracking-wide text-justify">
+          By signing up, you consent to receiving marketing by email and/or SMS
+          and acknowledge you have read our Privacy Policy. Unsubscribe anytime
+          at the bottom of our emails or by replying STOP to any of our SMS.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer section  -->
+
+    <footer class="bg-gray-200">
+      <!-- First container -->
+      <div
+        class="py-4 px-8 flex flex-wrap justify-between items-start border-[1px] gap-y-10 border-b-white"
+      >
+        <!-- First child -->
+        <div class="w-[350px] flex-shrink-0">
+          <!-- Heading container  -->
+          <div class="mb-5">
+            <h5 class="font-bold text-lg">Customer Service</h5>
+          </div>
+          <!-- Content container  -->
+          <div class="flex flex-col gap-y-2">
+            <p class="text-md hover:underline"><a href="/">contact us</a></p>
+            <p class="text-md hover:underline"><a href="/">faqs</a></p>
+            <p class="text-md hover:underline">
+              <a href="">order and delivery</a>
+            </p>
+            <p class="text-md hover:underline">
+              <a href="">returns and refunds</a>
+            </p>
+            <p class="text-md hover:underline">
+              <a href="">payment and pricing</a>
+            </p>
+            <p class="text-md hover:underline">
+              <a href="">cryptocurrency payments</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Second child -->
+        <div class="w-[350px] flex-shrink-0">
+          <!-- Heading container  -->
+          <div class="mb-5">
+            <h5 class="font-bold text-lg">About FARFETCH</h5>
+          </div>
+          <!-- Content container  -->
+          <div class="flex flex-col gap-y-2">
+            <p class="text-md hover:underline"><a href="/">about us</a></p>
+            <p class="text-md hover:underline"><a href="/">investors</a></p>
+            <p class="text-md hover:underline">
+              <a href="/">FARFETCH partner boutiques</a>
+            </p>
+            <p class="text-md hover:underline"><a href="/">careers</a></p>
+            <p class="text-md hover:underline"><a href="/">FARFETCH app</a></p>
+            <p class="text-md hover:underline">
+              <a href="/">modern slavery statements</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Third child -->
+        <div class="w-[350px] flex-shrink-0">
+          <!-- Heading container  -->
+          <div class="mb-5">
+            <h5 class="font-bold text-lg">Discounts and membership</h5>
+          </div>
+          <!-- Content container  -->
+          <div class="flex flex-col gap-y-2 mb-8">
+            <p class="text-md hover:underline">
+              <a href="/">affiliate program</a>
+            </p>
+            <p class="text-md hover:underline">
+              <a href="/">FARFETCH membership</a>
+            </p>
+            <p class="text-md hover:underline">
+              <a href="/">student discount UNiDAYS</a>
+            </p>
+            <p class="text-md hover:underline">
+              <a href="/">youth discount</a>
+            </p>
+          </div>
+
+          <!-- Social container  -->
+          <div>
+            <!-- Heading container  -->
+            <div class="mb-3">
+              <h5 class="font-bold text-l">Follow us</h5>
+            </div>
+
+            <!-- Content container  -->
+
+            <div class="w-[60%] flex justify-between items-start">
+              <!-- Facebook div  -->
+              <div>
+                <a href="/"
+                  ><img
+                    class="w-[30px] object-cover"
+                    src="./images/icons8-facebook-circled-24.png"
+                    alt="facebook-logo"
+                /></a>
+              </div>
+
+              <!-- Instagram div  -->
+              <div>
+                <a href="/"
+                  ><img
+                    class="w-[30px] object-cover"
+                    src="./images/icons8-instagram-old-48.png"
+                    alt="facebook-logo"
+                /></a>
+              </div>
+
+              <!-- Twitter div  -->
+              <div>
+                <a href="/"
+                  ><img
+                    class="w-[30px] object-cover"
+                    src="./images/icons8-twitter-40.png"
+                    alt="facebook-logo"
+                /></a>
+              </div>
+
+              <!-- Snapchat div  -->
+              <div>
+                <a href="/"
+                  ><img
+                    class="w-[30px] object-cover"
+                    src="./images/icons8-snapchat-squared-48.png"
+                    alt="facebook-logo"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second container  -->
+      <div class="py-4 px-8">
+        <!-- First child  -->
+        <div
+          class="flex flex-wrap gap-10 gap-y-4 items-center xs:mb-6 sm:mb-6 md:mb-6 lg:mb-4"
+        >
+          <div>
+            <p class="capitalize hover:text-gray-500 underline">
+              <a href="/">privacy policy</a>
+            </p>
+          </div>
+          <div>
+            <p class="capitalize hover:text-gray-500 underline">
+              <a href="/">terms and conditions</a>
+            </p>
+          </div>
+          <div>
+            <p class="capitalize hover:text-gray-500 underline">
+              <a href="/">accessiblity</a>
+            </p>
+          </div>
+          <div>
+            <p class="capitalize hover:text-gray-500 underline">
+              <a href="/">sitemap</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Second child  -->
+        <div class="sm:w-[90%] md:w-[90%] lg:w-[70%]">
+          <p class="text-sm tracking-wide text-justify">
+            'FARFETCH' and the 'FARFETCH' logo are trade marks of FARFETCH UK
+            Limited and are registered in numerous jurisdictions around the
+            world. © Copyright 2024 FARFETCH UK Limited. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
